@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "main": "report.js",
   "license": "MIT",
+  "scripts": {
+    "prettier": "prettier --write .",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
   "dependencies": {
     "axios": "^0.20.0"
   },
